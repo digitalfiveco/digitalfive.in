@@ -127,7 +127,7 @@ body a {
   font-family: "Montserrat", sans-serif;
 }
 
-.hamburger:hover .hamburger__links {
+.hamburger:focus-within .hamburger__links {
   display:  block;
   opacity: 1;
   right: -40px;
