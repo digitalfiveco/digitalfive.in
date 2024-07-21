@@ -573,7 +573,7 @@ section::after {
 
 
 
-.contact button {
+.contact form button {
   position: relative;
   left: 50%;
   font-family: monospace;
