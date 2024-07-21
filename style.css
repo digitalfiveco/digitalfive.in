@@ -103,7 +103,6 @@ body a {
 
 .hamburger__links {
   display: none;
-  opacity: 0;
   position: absolute;
   z-index: 5;
   height: auto;
@@ -112,7 +111,7 @@ body a {
   padding: 80px;
   font-size: 30px;
   border-radius: 20px 0px 0px 20px;
-  color: #000;
+  color: #fff;
   background: #000;
   transition: all 0.5s ease;
 }
@@ -129,7 +128,6 @@ body a {
 
 .hamburger:hover .hamburger__links {
   display:  block;
-  opacity: 1;
   right: -40px;
   transition: all 0.7s ease;
 }
