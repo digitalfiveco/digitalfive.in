@@ -1,22 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Digital Five</title>
-  <meta http-equiv="refresh" content="5; url=https://digitalfiveco.wordpress.com">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="./favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+  <link rel="preload" href="/assets/hero.png" as="Hero">
 </head>
 
 <body>
-  <div class="container">
-    <img src="./logo.png" alt="Logo" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
-    <div class="loader"></div>
-    <p style="text-align: center;">Redirecting in 5 seconds...</p>
-    <!-- <button class="button" onclick="window.location.href='#';">Let's Go...</button> -->
+  <div class="navbar">
+    <div class="nav__links">
+      <ul>
+        <li><a href="#Service">SERVICE</a></li>
+        <li><a href="#About">ABOUT</a></li>
+      </ul>
+    </div>
+    <div class="home__link">
+      <h3><a href="./index.html">DIGITAL FIVE</a></h3>
+    </div>
+    <div class="nav__links">
+      <ul>
+        <li><a href="#Clients">CLIENTS</a></li>
+        <li><a href="#Contact">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="hamburger">
+      <span class="material-symbols-outlined">menu</span>
+      <ul class="hamburger__links">
+        <li><a href="#Service">Service</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Clients">Clients</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
+
+  <div class="main__wrapper">
+
+    <div class="hero"> <!-- Hero Section -->
+      <h1>DIGITAL FIVE</h1>
+    </div>
+
+    <section id="section05" class="demo"> <!-- Animated Arrow -->
+      <a href="#Service"><span></span></a>
+    </section>
+
+    <div class="service" id="Service"> <!-- Service Section -->
+      <div class="service__text">
+        <h2>OUR SERVICE</h2>
+        <p>Digital Five excels in META advertising and analytics for Facebook, Instagram, and WhatsApp, as well as event management and Facebook Pixel integration. We pride ourselves on delivering transparent, value-focused solutions without gimmicky packages. <dd></dd>Our commitment to quality is demonstrated through weekly reports and daily updates, ensuring that our clients receive exceptional service and measurable results.</p>
+      </div>
+      <div class="service__img">
+        <img src="/assets/service1.png" alt="#" class="service__img1">
+        <img src="/assets/service2.png" alt="#" class="service__img2">
+      </div>
+    </div>
+
+    <div class="about" id="About"> <!-- About Section -->
+      <div class="about__text">
+        <h2>ABOUT US</h2>
+        <p>Digital Five is committed to revolutionizing the digital marketing landscape by eliminating ineffective practices and delivering true value. Our mission is to reshape the agency world with transparency and excellence. <dd></dd>Driven by a dynamic team of forward-thinking professionals, we stay ahead of industry trends to offer innovative solutions tailored to our clients' needs. At Digital Five, we aim to set new standards and drive meaningful results in the digital marketing sector.</p>
+      </div>
+      <div class="about__img">
+        <img src="/assets/about1.png" alt="#" class="about__img1">
+        <img src="/assets/about2.png" alt="#" class="about__img2">
+      </div>
+    </div>
+
+    <div class="spacer"> <!-- Spacer -->
+
+    </div>
+
+    <div class="clients" id="Clients"> <!-- Clients Section -->
+      <h2>OUR CLIENTS</h2>
+      <div class="clients__top">
+        <a href="#"><img src="/assets/client1.svg" alt="#"></a>
+        <a href="#"><img src="/assets/client2.svg" alt="#"></a>
+        <a href="#"><img src="/assets/client3.svg" alt="#"></a>
+      </div>
+      <div class="clients__bottom">
+        <a href="#"><img src="/assets/client2.svg" alt="#"></a>
+        <a href="#"><img src="/assets/client2.svg" alt="#"></a>
+      </div>
+    </div>
+
+    <div class="contact" id="Contact">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <h2>CONTACT</h2>
+        <p>Please complete the form to get in touch with us, and we will respond within 24 hours.</p>
+        <input type="hidden" name="access_key" value="d3fdd84a-b555-45b8-9a15-dfdf840f477d">
+        <input type="text" id="name" class="input__field" name="name" placeholder="Full Name" required>
+        <input type="email" id="email" class="input__field" name="email" placeholder="Email id" required>
+        <textarea id="message" class="input__message" rows="5" name="message" placeholder="your message..."></textarea>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none">
+        <input type="hidden" name="redirect" value="https://digitalfive.in">
+        <div>
+
+          <label class="checkbox">
+            <input type="checkbox" checked required>
+            <span class="checkmark"></span>
+            <p>By submitting this form you agree to our <a href="./policy.html">Privacy Policy</a> and <a href="./terms.html">Terms and Conditions</a></p>
+          </label>
+        </div>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer"> <!-- Footer Section -->
+    <div class="footer__logo">
+      <h2><a href="#">DIGITAL FIVE</a></h2>
+    </div>
+    <div class="footer__links">
+      <a href="#">Instagram </a> |
+      <a href="#"> Facebook </a> |
+      <a href="#"> Youtube</a>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
 </body>
 
 </html>
