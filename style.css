@@ -107,7 +107,7 @@ body a {
   z-index: 5;
   height: auto;
   top: -30px;
-  right: -350px;
+  right: 0px;
   padding: 80px;
   font-size: 30px;
   border-radius: 20px 0px 0px 20px;
