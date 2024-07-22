@@ -696,7 +696,7 @@ section::after {
 .error {
   width: 80%;
   margin: 200px auto;
-  padding: 20px;
+  padding: 50px;
   max-width: 900px;
   background:  rgba(25, 25, 25, 1);
   border-radius: 20px;
