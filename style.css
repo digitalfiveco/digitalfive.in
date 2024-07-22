@@ -579,6 +579,7 @@ section::after {
 .contact form button {
   position: relative;
   left: 50%;
+  margin-top: 10px;
   font-family: monospace;
   color: #000;
   width: 50%;
