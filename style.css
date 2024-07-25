@@ -281,8 +281,7 @@ section::after {
   display: flex;
   align-items: center;
   position: relative;
-  height: auto;
-  background: rgba(255, 255, 255, 0.3);
+  height: 900px;
 }
 
 .service__img1,
@@ -336,7 +335,7 @@ section::after {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
-    height: 850px;
+    height: auto;
     width: 80%;
   }
 
@@ -351,7 +350,7 @@ section::after {
   .service__img {
     display: flex;
     justify-content: center;
-    height: auto;
+    height: 350px;
   }
 
   .service__img1 {
@@ -374,7 +373,7 @@ section::after {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
-    height: 650px;
+    height: auto;
     width: 80%;
   }
 
@@ -390,6 +389,7 @@ section::after {
   .about__img {
     display: flex;
     justify-content: center;
+    height: 350px;
   }
 
   .about__img1 {
