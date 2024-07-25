@@ -281,7 +281,7 @@ section::after {
   display: flex;
   align-items: center;
   position: relative;
-  height: 900px;
+  height: auto;
 }
 
 .service__img1,
