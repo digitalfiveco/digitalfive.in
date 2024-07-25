@@ -128,7 +128,7 @@ body a {
 }
 
 .hamburger:hover .hamburger__links {
-  display:  block;
+  display: block;
   right: -40px;
   transition: all 0.7s ease;
 }
@@ -262,16 +262,27 @@ section::after {
 
 .service__text,
 .about__text {
-  position: relative;
+  /* position: relative; */
   width: 60%;
+  height: auto;
 }
 
+.service__text ul li {
+  margin-top: 5px;
+}
 
+.service__text p a:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
 
 .service__img,
 .about__img {
   display: flex;
+  align-items: center;
   position: relative;
+  height: auto;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .service__img1,
@@ -283,7 +294,7 @@ section::after {
   border-radius: 30px;
   object-fit: cover;
   object-position: center;
-  transform: rotate(-5deg) translate(60px, -10px);
+  transform: rotate(-5deg) translate(60px, 0px);
   transition: transform 0.3s ease;
   background-color: transparent;
 }
@@ -297,20 +308,20 @@ section::after {
   border-radius: 30px;
   object-fit: cover;
   object-position: center;
-  transform: rotate(5deg) translate(80px, -30px);
+  transform: rotate(5deg) translate(80px, 0px);
   transition: transform 0.3s ease;
   background-color: transparent;
 }
 
 .service:hover .service__img1,
 .about:hover .about__img1 {
-  transform: rotate(-10deg) translate(0px, -10px);
+  transform: rotate(-10deg) translate(0px, 0px);
   transition: transform 0.5s ease;
 }
 
 .service:hover .service__img2,
 .about:hover .about__img2 {
-  transform: rotate(10deg) translate(160px, -30px);
+  transform: rotate(10deg) translate(160px, 0px);
   transition: transform 0.5s ease;
 }
 
@@ -325,13 +336,12 @@ section::after {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
-    height: 600px;
+    height: 850px;
     width: 80%;
   }
 
   .service__text {
     width: 100%;
-    height: auto;
   }
 
   .service__text p {
@@ -341,6 +351,7 @@ section::after {
   .service__img {
     display: flex;
     justify-content: center;
+    height: auto;
   }
 
   .service__img1 {
@@ -363,7 +374,7 @@ section::after {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
-    height: 600px;
+    height: 650px;
     width: 80%;
   }
 
@@ -698,7 +709,7 @@ section::after {
   margin: 200px auto;
   padding: 200px 20px;
   max-width: 900px;
-  background:  rgba(25, 25, 25, 1);
+  background: rgba(25, 25, 25, 1);
   border-radius: 20px;
   color: #fff;
   text-align: center;
@@ -711,7 +722,7 @@ section::after {
 }
 
 .error button {
-  width:  50%;
+  width: 50%;
   margin: auto 10px;
   padding: 20px 10px;
   border-radius: 50px;
