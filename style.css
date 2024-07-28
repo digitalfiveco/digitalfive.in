@@ -735,3 +735,14 @@ section::after {
   font-family: "Montserrat", sans-serif;
   color: #000;
 }
+
+.calendly-inline-widget{
+  box-sizing: border-box;
+  margin: 200px auto;
+  padding: 0px;
+  width: 90%;
+  max-width: 900px;
+  height: 100%;
+  overflow-y: hidden;
+  border-radius: 50px;
+}
