@@ -742,7 +742,7 @@ section::after {
   padding: 0px;
   width: auto;
   max-width: 900px;
-  height: 100%;
+  height: 140vh;
   overflow-y: hidden;
   border-radius: 50px;
 }
