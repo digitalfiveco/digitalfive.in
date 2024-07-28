@@ -740,7 +740,7 @@ section::after {
   box-sizing: border-box;
   margin: 200px auto;
   padding: 0px;
-  width: 90%;
+  width: auto;
   max-width: 900px;
   height: 100%;
   overflow-y: hidden;
