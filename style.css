@@ -660,6 +660,18 @@ section::after {
 }
 
 @media (max-width: 600px) {
+  .clients {
+    height: 200px
+  }
+  
+  .clients__bottom {
+    width: 100%;
+  }
+  
+  .clients__top {
+    width: 100%;
+  }
+  
   .footer {
     display: block;
     text-align: center;
