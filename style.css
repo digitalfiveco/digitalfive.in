@@ -444,7 +444,7 @@ section::after {
 
 .clients__bottom {
   display: flex;
-  height: 50%;
+  height: 40%;
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -453,7 +453,7 @@ section::after {
 }
 
 .clients a {
-  height: 100%;
+  aspect-ratio: 16 / 9;
   width: 30%;
 }
 
