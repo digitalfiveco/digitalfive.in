@@ -342,14 +342,19 @@ color: rgba(255, 255, 255, 0.95);
   width: 90%;
   max-width: 900px;
   margin: auto;
-  padding-top: 200px;
+  padding-top: 0px;
 }
 
 
 .error {
   width: 80%;
-  margin: 200px auto;
-  padding: 200px 20px;
+  height: 500px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  padding: 20px;
   max-width: 900px;
   background: rgba(25, 25, 25, 1);
   border-radius: 20px;
@@ -360,7 +365,8 @@ color: rgba(255, 255, 255, 0.95);
 
 .error h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 90px;
+  font-size: 10rem;
+  margin: 0px;
 }
 
 .error button {
@@ -381,7 +387,7 @@ color: rgba(255, 255, 255, 0.95);
 
 .calendly-inline-widget{
   box-sizing: border-box;
-  margin: 200px auto;
+  margin: 0px auto;
   padding: 0px;
   width: auto;
   max-width: 900px;
