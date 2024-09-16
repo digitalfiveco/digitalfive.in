@@ -221,11 +221,10 @@ color: rgba(255, 255, 255, 0.95);
 
 .contact form button {
   position: relative;
-  left: 75%;
   margin-top: 10px;
   font-family: monospace;
   color: rgba(255, 255, 255, 0.8);
-  width: 25%;
+  width: 100%;
   height: 50px;
   border-radius: 50px;
   border: 1px solid rgba(255, 255, 255, 0.8);
