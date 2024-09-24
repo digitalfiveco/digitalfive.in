@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateFavicon(theme) {
         const favicon = document.getElementById('favicon');
         if (theme === 'dark') {
-            favicon.href = 'dark-favicon.ico'; // Path to dark mode favicon
+            favicon.href = 'favicon.svg'; // Path to dark mode favicon
         } else {
-            favicon.href = 'light-favicon.ico'; // Path to light mode favicon
+            favicon.href = 'light-favicon.svg'; // Path to light mode favicon
         }
     }
 
