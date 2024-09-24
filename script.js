@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('load', fadeInOnScroll); // Trigger on page load
 });
 
-<script>
     // Function to update favicon based on the theme
     function updateFavicon(theme) {
         const favicon = document.getElementById('favicon');
@@ -48,5 +47,3 @@ document.addEventListener("DOMContentLoaded", function() {
     prefersDarkScheme.addEventListener('change', (event) => {
         updateFavicon(event.matches ? 'dark' : 'light');
     });
-</script>
-
