@@ -28,3 +28,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
   window.addEventListener('load', fadeInOnScroll); // Trigger on page load
 });
+
+<script>
+    // Function to update favicon based on the theme
+    function updateFavicon(theme) {
+        const favicon = document.getElementById('favicon');
+        if (theme === 'dark') {
+            favicon.href = 'dark-favicon.ico'; // Path to dark mode favicon
+        } else {
+            favicon.href = 'light-favicon.ico'; // Path to light mode favicon
+        }
+    }
+
+    // Detect browser theme and apply the correct favicon
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    updateFavicon(prefersDarkScheme.matches ? 'dark' : 'light');
+
+    // Listen for theme changes and update the favicon
+    prefersDarkScheme.addEventListener('change', (event) => {
+        updateFavicon(event.matches ? 'dark' : 'light');
+    });
+</script>
+
